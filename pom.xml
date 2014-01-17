@@ -64,8 +64,47 @@
     	<artifactId>slf4j-api</artifactId>
     	<version>1.7.5</version>
     </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-webmvc</artifactId>
+    	<version>3.2.5.RELEASE</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>Pinask</finalName>
+    <plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+            <version>2.1</version>
+  			<configuration>  
+               <path>/${project.build.finalName}</path>  
+            </configuration>             
+            <executions>
+                <execution>
+                  <id>tomcat-run</id>
+                  <goals>
+                    <goal>run</goal>
+                  </goals>                    
+                  <phase>pre-integration-test</phase>
+                </execution>                    
+                <execution>
+                  <id>tomcat-shutdown</id>
+                  <goals>
+                    <goal>shutdown</goal>
+                  </goals>
+                  <phase>post-integration-test</phase>
+                </execution>
+            </executions>
+           </plugin>  
+		</plugins>
   </build>
 </project>

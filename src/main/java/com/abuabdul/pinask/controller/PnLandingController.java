@@ -22,6 +22,21 @@
 
 package com.abuabdul.pinask.controller;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ * @author abuabdul
+ * 
+ */
 public class PnLandingController {
+
+	@RequestMapping("/")
+	public ModelAndView welcomePage() {
+
+		ModelAndView mav = new ModelAndView("landingPage");
+
+		return mav;
+	}
 
 }
