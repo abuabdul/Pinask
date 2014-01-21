@@ -41,7 +41,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><span><img height="60" src="<c:url value="/resources/css/logo-mongodb-header.png"/>"/></span></li>
+            <li><span><img height="60" width="60" src="<c:url value="/resources/css/logo_pinask.jpg"/>"/></span></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
