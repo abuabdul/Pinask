@@ -13,11 +13,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet">
+    <link href="<c:url value="/resources/css/pinask.css"/>" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="navbar-fixed-top.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!-- Just for debugging purposes.-->
     <!--[if lt IE 9]><script src="<c:url value="/resources/js/ie8-responsive-file-warning.js"/>"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -39,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">&copy; abuabdul.com 2014</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
