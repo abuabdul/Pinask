@@ -22,6 +22,7 @@
 
 package com.abuabdul.pinask.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -29,14 +30,22 @@ import org.springframework.web.servlet.ModelAndView;
  * @author abuabdul
  * 
  */
+@Controller
 public class PnLandingController {
 
 	@RequestMapping("/")
 	public ModelAndView welcomePage() {
 
-		ModelAndView mav = new ModelAndView("landingPage");
+		ModelAndView mav = new ModelAndView("index");
 
 		return mav;
 	}
+
+	/*
+	 * @RequestMapping("/") public String landingPage(Model model) {
+	 * //log.debug("Entering landingPage() in the KxLandingController"); //
+	 * Create new KnodexForm object and set it in the model
+	 * //model.addAttribute("knodexForm", new KnodexForm()); return "index"; }
+	 */
 
 }

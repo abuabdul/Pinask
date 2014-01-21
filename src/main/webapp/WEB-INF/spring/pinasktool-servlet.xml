@@ -26,16 +26,16 @@
               <property name="suffix">
                  <value>.jsp</value>
               </property>
-        </bean>
+    </bean>
 
-	<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+	<!-- <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
 		<property name="definitions">
 			<list>
 			  <value>/WEB-INF/tiles-def.xml</value>
 			</list>
 		</property>
 	</bean>
-	
+	 -->
 	<mvc:resources mapping="/resources/**" location="/themes/"/>
 
 	<mvc:annotation-driven />
