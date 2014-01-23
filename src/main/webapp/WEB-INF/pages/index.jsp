@@ -62,28 +62,29 @@
 
     </div> /container
      -->
+    <div class="add-remove-pane">
+		<div style="background-color:#BCC4A3; border-top: 1px solid #BCC4A3; width: 100px; margin: 0 5px; padding: 7px 12px; -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;">
+			<span style="width: 50px; color: #FFF; font-weight: bold;">
+			   <a class="btn btn-default btn-xs" href="#"><i class="fa fa-plus"></i></a>
+			</span>
+		</div>
+    </div>
+     
 	<div role="main">
 		<section class="pin-pane">
 			<div class="gridster">
-				<div>
-					<div style="border-top: 1px solid #BCC4A3; width: 200px; margin: 0 5px; padding: 5px 1px">
-						<span style="width: 100px; color: #FFF; font-weight: bold;">
-						   <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-plus fa-lg"></i></a>
-						   <!-- <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-thumb-tack fa-lg"></i></a> -->
-						</span>
-					</div>
-				</div>
 				<ul>
-					<li data-row="1" data-col="1" data-sizex="2" data-sizey="2"
-						onclick="alert('hi')"
-						style="background-color: #045749; color: #fff; font-weight: bold;">
-						Scala
-						<span style="width: 100px; color: #FFF; font-weight: bold;">
-						   <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-minus fa-lg"></i></a>
-						   <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-pencil fa-lg"></i></a>
-						   <!-- <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-thumb-tack fa-lg"></i></a> -->
-						</span>
-						</li>
+					<li data-row="1" data-col="1" data-sizex="2" data-sizey="2"	onclick="alert('hi')" style="background-color: #045749; color: #fff; font-weight: bold;">
+					    <i class="fa fa-thumb-tack fa-2x pinask-pin"></i>
+						<div class="pull-right">
+						   <span class="pinask-controls-tools">
+						        <a class="btn btn-default btn-xs" href="#"><i class="fa fa-pencil"></i></a>
+						  	    <a class="btn btn-default btn-xs" href="#"><i class="fa fa-trash-o"></i></a>
+						   </span>
+						</div>
+					</li>
 					<li data-row="3" data-col="1" data-sizex="1" data-sizey="1"
 						style="color: #fff; font-weight: bold;">Spring</li>
 
@@ -91,8 +92,15 @@
 						to Spring</li>
 					<li data-row="1" data-col="2" data-sizex="2" data-sizey="2">sdfd</li>
 
-					<li data-row="1" data-col="4" data-sizex="1" data-sizey="1">Hello
-						try</li>
+					<li data-row="1" data-col="4" data-sizex="1" data-sizey="1" style="background-color: #045749; color: #fff; font-weight: bold;">
+					   <i class="fa fa-thumb-tack fa-2x pinask-pin"></i>
+						<div class="pull-right">
+						   <span class="pinask-controls-tools">
+						        <a class="btn btn-default btn-xs" href="#"><i class="fa fa-pencil"></i></a> 
+						  	    <a class="btn btn-default btn-xs" href="#"><i class="fa fa-trash-o"></i></a>
+						   </span>
+						</div>
+				   </li>
 					<li data-row="2" data-col="4" data-sizex="2" data-sizey="1"></li>
 					<li data-row="3" data-col="4" data-sizex="1" data-sizey="1"></li>
 

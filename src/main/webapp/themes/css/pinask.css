@@ -1,19 +1,38 @@
-ul, ol {
-    list-style: none;
+ul,ol {
+	list-style: none;
 }
 
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
- 
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body {
-    background-color: #FFF;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: medium;
-    color: #666666;
+	background-color: #FFF;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: medium;
+	color: #666666;
 	min-height: 2000px;
 	padding-top: 10px;
 }
 
-.pinask-controls {
-	background-color: #BCC4A3;
+.pinask-pin {
+	color: #0C2326;
+	margin-top: -20px;
+}
+
+.pinask-controls-tools {
+	padding: 3px;
+}
+
+/* dirty background-color: #BCC4A3; */
+
+.pinask-controls-pinbg {
+	/* green background-color: #069C83; */
+}
+
+.add-remove-pane {
+  margin: 5em 1em 2em 2.5em;
 }
