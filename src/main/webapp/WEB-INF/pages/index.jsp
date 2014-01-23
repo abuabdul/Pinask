@@ -13,12 +13,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet">
-    <link href="<c:url value="/resources/css/pinask.css"/>" rel="stylesheet">
-    
-    
     <link href="<c:url value="/resources/css/jquery.gridster.min.css"/>" rel="stylesheet">
-
 	<link href="<c:url value="/resources/css/pinask.gridster.css"/>" rel="stylesheet">
+	<link href="<c:url value="/resources/css/pinask.css"/>" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
     
 
@@ -59,15 +56,9 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Navbar example</h1>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-
-
 
 			<div role="main">
-
-				<section class="demo">
+				<section class="pin-pane">
 					<div class="gridster">
 						<ul>
 							<li data-row="1" data-col="1" data-sizex="2" data-sizey="1"
@@ -91,9 +82,7 @@
 							<li data-row="2" data-col="6" data-sizex="1" data-sizey="2"></li>
 						</ul>
 					</div>
-
 				</section>
-
 			</div>
 
 
@@ -115,8 +104,8 @@
   $(function(){
 
     gridster = $(".gridster > ul").gridster({
-        widget_margins: [10, 10],
-        widget_base_dimensions: [140, 40],
+        widget_margins: [5, 5],
+        widget_base_dimensions: [150, 150],
         min_cols: 3,
         resize: {
             enabled: true

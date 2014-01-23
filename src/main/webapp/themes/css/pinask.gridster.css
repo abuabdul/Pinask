@@ -1,26 +1,7 @@
-*  {
-  margin: 0;
-  padding: 0;
-}
-
-ul, ol {
-    list-style: none;
-}
-
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-body {
-    background-color: #EEEEEE;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: x-small;
-    color: #666666;
-}
-
 /* Gridster styles */
-.demo {
-    margin: 3em 0;
-    padding: 7.5em 0 5.5em;
+.pin-pane {
+    margin: 2em 0;
+    padding: 2.5em 0 2.5em;
     background: #CCC3E3;
 }
 

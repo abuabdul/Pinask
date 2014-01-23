@@ -1,4 +1,15 @@
+ul, ol {
+    list-style: none;
+}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+ 
 body {
-	/* min-height: 2000px;
-	padding-top: 70px; */
+    background-color: #EEEEEE;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: x-small;
+    color: #666666;
+	min-height: 2000px;
+	padding-top: 10px;
 }
