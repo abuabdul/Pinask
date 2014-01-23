@@ -17,6 +17,8 @@
 	<link href="<c:url value="/resources/css/pinask.gridster.css"/>" rel="stylesheet">
 	<link href="<c:url value="/resources/css/pinask.css"/>" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome 4.0 CSS -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     
 
     <!-- Just for debugging purposes.-->
@@ -50,46 +52,59 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+	
+	<!-- <div class="container">
 
-    <div class="container">
-
-      <!-- Main component for a primary marketing message or call to action -->
+      Main component for a primary marketing message or call to action
       <div class="jumbotron">
-        <h1>Navbar example</h1>
+			
+  	  </div>
 
-			<div role="main">
-				<section class="pin-pane">
-					<div class="gridster">
-						<ul>
-							<li data-row="1" data-col="1" data-sizex="2" data-sizey="1"
-								onclick="alert('hi')"
-								style="background-color: #18064A; color: #fff; font-weight: bold;">Scala</li>
-							<li data-row="3" data-col="1" data-sizex="1" data-sizey="1"
-								style="color: #fff; font-weight: bold;">Spring</li>
-
-							<li data-row="3" data-col="2" data-sizex="2" data-sizey="1"></li>
-							<li data-row="1" data-col="2" data-sizex="2" data-sizey="2"></li>
-
-							<li class="try" data-row="1" data-col="4" data-sizex="1"
-								data-sizey="1" data-max-sizex="1" data-max-sizey="1"></li>
-							<li data-row="2" data-col="4" data-sizex="2" data-sizey="1"></li>
-							<li data-row="3" data-col="4" data-sizex="1" data-sizey="1"></li>
-
-							<li data-row="1" data-col="5" data-sizex="1" data-sizey="1"></li>
-							<li data-row="3" data-col="5" data-sizex="1" data-sizey="1"></li>
-
-							<li data-row="1" data-col="6" data-sizex="1" data-sizey="1"></li>
-							<li data-row="2" data-col="6" data-sizex="1" data-sizey="2"></li>
-						</ul>
+    </div> /container
+     -->
+	<div role="main">
+		<section class="pin-pane">
+			<div class="gridster">
+				<div>
+					<div style="border-top: 1px solid #BCC4A3; width: 200px; margin: 0 5px; padding: 5px 1px">
+						<span style="width: 100px; color: #FFF; font-weight: bold;">
+						   <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-plus fa-lg"></i></a>
+						   <!-- <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-thumb-tack fa-lg"></i></a> -->
+						</span>
 					</div>
-				</section>
+				</div>
+				<ul>
+					<li data-row="1" data-col="1" data-sizex="2" data-sizey="2"
+						onclick="alert('hi')"
+						style="background-color: #045749; color: #fff; font-weight: bold;">
+						Scala
+						<span style="width: 100px; color: #FFF; font-weight: bold;">
+						   <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-minus fa-lg"></i></a>
+						   <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-pencil fa-lg"></i></a>
+						   <!-- <a class="btn btn-default btn-sm pinask-controls" href="#"><i class="fa fa-thumb-tack fa-lg"></i></a> -->
+						</span>
+						</li>
+					<li data-row="3" data-col="1" data-sizex="1" data-sizey="1"
+						style="color: #fff; font-weight: bold;">Spring</li>
+
+					<li data-row="3" data-col="2" data-sizex="2" data-sizey="1">Next
+						to Spring</li>
+					<li data-row="1" data-col="2" data-sizex="2" data-sizey="2">sdfd</li>
+
+					<li data-row="1" data-col="4" data-sizex="1" data-sizey="1">Hello
+						try</li>
+					<li data-row="2" data-col="4" data-sizex="2" data-sizey="1"></li>
+					<li data-row="3" data-col="4" data-sizex="1" data-sizey="1"></li>
+
+					<li data-row="1" data-col="5" data-sizex="2" data-sizey="1"></li>
+					<li data-row="3" data-col="5" data-sizex="1" data-sizey="1"></li>
+
+					<li data-row="1" data-col="6" data-sizex="1" data-sizey="1"></li>
+					<li data-row="2" data-col="6" data-sizex="1" data-sizey="2"></li>
+				</ul>
 			</div>
-
-
-		</div>
-
-    </div> <!-- /container -->
-
+		</section>
+	</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -105,7 +120,7 @@
 
     gridster = $(".gridster > ul").gridster({
         widget_margins: [5, 5],
-        widget_base_dimensions: [150, 150],
+        widget_base_dimensions: [120, 120],
         min_cols: 3,
         resize: {
             enabled: true

@@ -5,11 +5,15 @@ ul, ol {
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
  
 body {
-    background-color: #EEEEEE;
+    background-color: #FFF;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
-    font-size: x-small;
+    font-size: medium;
     color: #666666;
 	min-height: 2000px;
 	padding-top: 10px;
+}
+
+.pinask-controls {
+	background-color: #BCC4A3;
 }

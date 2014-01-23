@@ -1,8 +1,8 @@
 /* Gridster styles */
 .pin-pane {
-    margin: 2em 0;
-    padding: 2.5em 0 2.5em;
-    background: #CCC3E3;
+    margin: 5em 0;
+    padding: .5em 0 .5em;
+    background: #EEE;
 }
 
 .gridster {
@@ -11,7 +11,7 @@
 }
 
 .gridster .gs-w {
-    background: #7550D9;
+    background: #069C83;
     cursor: pointer;
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
@@ -20,14 +20,6 @@
 .gridster .player {
     -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
     box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
-}
-
-
-.gridster .gs-w.try {
-    background-image: url(../img/sprite.png); /* Image if we like to keep */
-    background-repeat: no-repeat;
-    background-position: 37px -169px;
-
 }
 
 .gridster .preview-holder {
