@@ -44,7 +44,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="http://abuabdul.com">&copy; abuabdul.com 2014</a>
-        </div>
+		</div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><span><img height="60" width="60" src="<c:url value="/resources/css/logo_pinask.jpg"/>"/></span></li>
@@ -63,21 +63,34 @@
     </div> /container
      -->
     <div class="add-remove-pane">
-		<div style="background-color:#BCC4A3; border-top: 1px solid #BCC4A3; width: 100px; margin: 0 5px; padding: 7px 12px; -webkit-border-radius: 7px;
-	-moz-border-radius: 7px;
-	border-radius: 7px;">
+		<div style="background-color: #BCC4A3; border-top: 1px solid #BCC4A3; width: 2px; margin: 0 5px; padding: 5px 5px;">
 			<span style="width: 50px; color: #FFF; font-weight: bold;">
-			   <a class="btn btn-default btn-xs" href="#"><i class="fa fa-plus"></i></a>
-			</span>
+				<a class="btn btn-default btn-xs" href="#" title="Add Panel">
+				  <i class="fa fa-plus fa-3x"></i></a>
+		    </span>		  
 		</div>
-    </div>
-     
+	</div>
+		   
 	<div role="main">
 		<section class="pin-pane">
+		   <div style="float:left; margin: 0 5px;">
+			    <span style="width: 50px; color: #FFF; font-weight: bold;">
+							<a class="btn btn-default btn-xs" href="#" title="Add Tile">
+							  <i class="fa fa-plus"></i> Add Tile
+							</a>
+				 </span>  
+			</div>
+			<div style="float:right; margin: 0 5px;">
+						<span style="width: 50px; color: #FFF; font-weight: bold;">
+							<a class="btn btn-default btn-xs" href="#" title="Close">
+							  <i class="fa fa-times fa-2x"></i>
+							</a>
+						</span>
+			</div>
 			<div class="gridster">
 				<ul>
 					<li data-row="1" data-col="1" data-sizex="2" data-sizey="2"	onclick="alert('hi')" style="background-color: #045749; color: #fff; font-weight: bold;">
-					    <i class="fa fa-thumb-tack fa-2x pinask-pin"></i>
+					    <i class="fa fa-thumb-tack fa-lg pinask-pin"></i>
 						<div class="pull-right">
 						   <span class="pinask-controls-tools">
 						        <a class="btn btn-default btn-xs" href="#"><i class="fa fa-pencil"></i></a>
@@ -93,7 +106,7 @@
 					<li data-row="1" data-col="2" data-sizex="2" data-sizey="2">sdfd</li>
 
 					<li data-row="1" data-col="4" data-sizex="1" data-sizey="1" style="background-color: #045749; color: #fff; font-weight: bold;">
-					   <i class="fa fa-thumb-tack fa-2x pinask-pin"></i>
+					   <i class="fa fa-thumb-tack fa-lg pinask-pin"></i>
 						<div class="pull-right">
 						   <span class="pinask-controls-tools">
 						        <a class="btn btn-default btn-xs" href="#"><i class="fa fa-pencil"></i></a> 
